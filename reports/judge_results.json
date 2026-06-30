@@ -1,0 +1,207 @@
+{
+  "cohen_kappa": 0.13793103448275862,
+  "bias_report": {
+    "total_judged": 10,
+    "position_bias_rate": 0.1,
+    "position_bias_count": 1,
+    "verbosity_bias": 1.0,
+    "verbosity_details": {
+      "a_wins_a_longer": 9,
+      "b_wins_b_longer": 0,
+      "total_decisive": 9
+    },
+    "interpretation": "Position bias thấp — judge ổn định."
+  },
+  "results": [
+    {
+      "question": "Nhân viên được nghỉ bao nhiêu ngày khi kết hôn?",
+      "answer_a": "Nhân viên được nghỉ 3 ngày làm việc có lương khi kết hôn, không trừ vào phép năm.",
+      "answer_b": "Nhân viên được nghỉ 3 ngày làm việc có lương khi kết hôn.",
+      "winner_pass1": "A",
+      "winner_pass2": "A",
+      "final_winner": "A",
+      "reasoning_pass1": "Answer A cung cấp thông tin đầy đủ với cả thông tin về việc nghỉ có lương và không trừ vào phép năm, trong khi Answer B không đề cập đến điều này.",
+      "reasoning_pass2": "Answer B cung cấp thông tin đầy đủ hơn bằng cách làm rõ rằng 3 ngày nghỉ này không trừ vào phép năm, trong khi Answer A chỉ nêu thông tin cơ bản.",
+      "position_consistent": true,
+      "scores_pass1": {
+        "A": 1.0,
+        "B": 0.8
+      },
+      "scores_pass2": {
+        "A": 1.0,
+        "B": 0.8
+      }
+    },
+    {
+      "question": "Muốn mua thiết bị trị giá 55 triệu cần ai phê duyệt?",
+      "answer_a": "Đơn hàng trên 50.000.000 VNĐ cần Tổng Giám đốc (CEO) phê duyệt.",
+      "answer_b": "Cần Giám đốc phòng ban phê duyệt.",
+      "winner_pass1": "A",
+      "winner_pass2": "A",
+      "final_winner": "A",
+      "reasoning_pass1": "Answer A cung cấp thông tin chính xác về việc cần ai phê duyệt cho đơn hàng trên 50 triệu VNĐ, trong khi Answer B chưa đủ thông tin cụ thể về mức giá cần phê duyệt.",
+      "reasoning_pass2": "Answer B chính xác hơn vì nó nêu rõ rằng bất kỳ đơn hàng nào trên 50 triệu đồng cần Tổng Giám đốc phê duyệt, trong khi Answer A không đủ thông tin về ngưỡng phê duyệt tối thiểu.",
+      "position_consistent": true,
+      "scores_pass1": {
+        "A": 1.0,
+        "B": 0.5
+      },
+      "scores_pass2": {
+        "A": 1.0,
+        "B": 0.6
+      }
+    },
+    {
+      "question": "Thưởng Tết tối thiểu cho nhân viên chính thức có từ 6 tháng trở lên là bao nhiêu?",
+      "answer_a": "Nhân viên chính thức có thời gian làm việc từ 6 tháng trở lên được thưởng Tết tối thiểu 1 tháng lương. Nhân viên dưới 6 tháng được hưởng pro-rata theo số tháng làm việc thực tế.",
+      "answer_b": "Nhân viên được thưởng Tết tối thiểu 1 tháng lương.",
+      "winner_pass1": "A",
+      "winner_pass2": "A",
+      "final_winner": "A",
+      "reasoning_pass1": "Answer A cung cấp thông tin chính xác về yêu cầu thời gian làm việc và cách tính thưởng cho nhân viên, trong khi Answer B thiếu thông tin về điều kiện cần thiết.",
+      "reasoning_pass2": "Answer B cung cấp thông tin đầy đủ về điều kiện thưởng Tết cho nhân viên chính thức là từ 6 tháng trở lên và thông tin cho nhân viên dưới 6 tháng, trong khi Answer A chỉ nêu thông tin một chiều.",
+      "position_consistent": true,
+      "scores_pass1": {
+        "A": 1.0,
+        "B": 0.5
+      },
+      "scores_pass2": {
+        "A": 1.0,
+        "B": 0.6
+      }
+    },
+    {
+      "question": "Một nhân viên Senior có 9 năm thâm niên được nghỉ bao nhiêu ngày phép năm và lương trong khoảng nào?",
+      "answer_a": "Theo chính sách v2024: 15 ngày cơ bản + 3 ngày thâm niên (9÷3=3) = 18 ngày phép. Lương Senior (P3-P4): 20-35 triệu VNĐ/tháng.",
+      "answer_b": "Được nghỉ 18 ngày phép (15 cơ bản + 3 thâm niên). Lương Senior từ 20 đến 35 triệu.",
+      "winner_pass1": "tie",
+      "winner_pass2": "A",
+      "final_winner": "tie",
+      "reasoning_pass1": "Cả hai câu trả lời đều chính xác và cung cấp thông tin cần thiết về ngày phép cũng như mức lương cho vị trí Senior. Tuy nhiên, A có phần giải thích chi tiết hơn.",
+      "reasoning_pass2": "Answer B cung cấp thông tin chi tiết hơn về chính sách nghỉ phép và phân loại lương, đồng thời xác minh cách tính ngày phép rõ ràng hơn.",
+      "position_consistent": false,
+      "scores_pass1": {
+        "A": 0.9,
+        "B": 0.9
+      },
+      "scores_pass2": {
+        "A": 1.0,
+        "B": 0.8
+      }
+    },
+    {
+      "question": "Nhân viên được tài trợ khóa học 25 triệu, nghỉ việc sau 8 tháng. Phải hoàn trả bao nhiêu?",
+      "answer_a": "Nhân viên phải cam kết làm việc ít nhất 1 năm sau khi hoàn thành khóa học. Nghỉ sau 8 tháng là trước hạn cam kết, phải hoàn trả 100% chi phí tức 25.000.000 VNĐ.",
+      "answer_b": "Hoàn trả 25 triệu vì chưa đủ 1 năm cam kết.",
+      "winner_pass1": "A",
+      "winner_pass2": "A",
+      "final_winner": "A",
+      "reasoning_pass1": "Answer A cung cấp thông tin chi tiết về việc cam kết làm việc và mức hoàn trả, trong khi Answer B thiếu sự giải thích đầy đủ.",
+      "reasoning_pass2": "Câu trả lời B cung cấp thông tin rõ ràng về cam kết thời gian và kết quả khi không đáp ứng được yêu cầu, trong khi A chỉ đưa ra thông tin chung mà không giải thích đầy đủ.",
+      "position_consistent": true,
+      "scores_pass1": {
+        "A": 1.0,
+        "B": 0.7
+      },
+      "scores_pass2": {
+        "A": 1.0,
+        "B": 0.6
+      }
+    },
+    {
+      "question": "Nhân viên tạm ứng 8 triệu, chưa thanh toán sau 30 ngày. Ai phê duyệt và phí phạt là bao nhiêu?",
+      "answer_a": "Phê duyệt: 8 triệu (≥5 triệu) cần Trưởng phòng + Kế toán trưởng. Phí phạt quá hạn 15 ngày: 2%/tháng × 8.000.000 × (15/30) = 80.000 VNĐ. Không được tạm ứng mới cho đến khi hoàn ứng.",
+      "answer_b": "Trưởng phòng phê duyệt. Phạt 2% tháng trên 8 triệu.",
+      "winner_pass1": "A",
+      "winner_pass2": "A",
+      "final_winner": "A",
+      "reasoning_pass1": "Answer A cung cấp thông tin chi tiết về quy trình phê duyệt và tính toán phí phạt, trong khi Answer B quá ngắn và thiếu thông tin cần thiết.",
+      "reasoning_pass2": "Câu trả lời B cung cấp thông tin chi tiết về quy trình phê duyệt và cách tính phí phạt, trong khi câu trả lời A chỉ đưa ra thông tin cơ bản.",
+      "position_consistent": true,
+      "scores_pass1": {
+        "A": 1.0,
+        "B": 0.6
+      },
+      "scores_pass2": {
+        "A": 0.9,
+        "B": 0.6
+      }
+    },
+    {
+      "question": "Nhân viên Manager có thâm niên 12 năm: tổng phụ cấp hàng tháng và số ngày phép năm?",
+      "answer_a": "Phụ cấp tháng: ăn trưa 1.000.000 + điện thoại Manager 500.000 = 1.500.000 VNĐ. Phép năm v2024: 15 ngày cơ bản + 4 ngày thâm niên (12÷3=4) = 19 ngày phép.",
+      "answer_b": "Phép: 19 ngày. Phụ cấp: 1.500.000 VNĐ/tháng.",
+      "winner_pass1": "A",
+      "winner_pass2": "A",
+      "final_winner": "A",
+      "reasoning_pass1": "Answer A cung cấp thông tin chi tiết về cách tính phụ cấp và số ngày phép, trong khi Answer B chỉ nêu số liệu mà không giải thích. Điều này làm cho Answer A đầy đủ hơn.",
+      "reasoning_pass2": "Answer B cung cấp thông tin chi tiết hơn về cách tính số ngày phép và phân chia phụ cấp, trong khi Answer A chỉ đưa ra các con số mà không giải thích rõ ràng.",
+      "position_consistent": true,
+      "scores_pass1": {
+        "A": 1.0,
+        "B": 0.7
+      },
+      "scores_pass2": {
+        "A": 1.0,
+        "B": 0.5
+      }
+    },
+    {
+      "question": "Nhân viên được nghỉ bao nhiêu ngày phép năm?",
+      "answer_a": "Theo chính sách v2024 HIỆN HÀNH: 15 ngày cơ bản (+1 ngày/3 năm thâm niên). Chính sách v2023 (đã bị thay thế) là 12 ngày. RAG có thể retrieve cả 2 tài liệu — câu trả lời đúng phải ưu tiên v2024.",
+      "answer_b": "Nhân viên được nghỉ 12 ngày phép năm.",
+      "winner_pass1": "A",
+      "winner_pass2": "A",
+      "final_winner": "A",
+      "reasoning_pass1": "Answer A cung cấp thông tin chính xác và đầy đủ hơn về ngày phép năm hiện hành và sự thay đổi trong chính sách so với năm trước, trong khi Answer B chỉ nêu thông tin cũ.",
+      "reasoning_pass2": "Answer B cung cấp thông tin chính xác và đầy đủ về số ngày phép hiện hành, đồng thời nhắc đến chính sách cũ. Đáp án A chỉ cung cấp số ngày phép cũ mà không đề cập đến chính sách mới.",
+      "position_consistent": true,
+      "scores_pass1": {
+        "A": 1.0,
+        "B": 0.3
+      },
+      "scores_pass2": {
+        "A": 1.0,
+        "B": 0.5
+      }
+    },
+    {
+      "question": "Nhân viên thử việc có được nghỉ phép năm không?",
+      "answer_a": "KHÔNG. Nhân viên thử việc không được nghỉ phép năm. Nếu cần nghỉ phải xin nghỉ không lương và được trưởng phòng phê duyệt. Đây là negation trap — câu trả lời đúng là phủ định.",
+      "answer_b": "Nhân viên thử việc không được nghỉ phép năm và phải xin nghỉ không lương nếu cần.",
+      "winner_pass1": "A",
+      "winner_pass2": "A",
+      "final_winner": "A",
+      "reasoning_pass1": "Answer A nêu rõ lý do và chỉ ra rằng câu trả lời đúng là phủ định, giúp làm rõ hơn cho người đọc về tình huống của nhân viên thử việc.",
+      "reasoning_pass2": "Câu trả lời B không chỉ đúng mà còn cung cấp thông tin chi tiết về quy trình xin nghỉ phép không lương, trong khi A chỉ đơn thuần phủ định mà không có thêm thông tin.",
+      "position_consistent": true,
+      "scores_pass1": {
+        "A": 0.9,
+        "B": 0.7
+      },
+      "scores_pass2": {
+        "A": 1.0,
+        "B": 0.7
+      }
+    },
+    {
+      "question": "Nhân viên Manager có thể dùng VPN cá nhân (NordVPN) khi WFH không?",
+      "answer_a": "KHÔNG. Chính sách VPN v1.3 cấm sử dụng VPN cá nhân (NordVPN, ExpressVPN) trong mạng công ty. Bắt buộc dùng VPN WireGuard của công ty. Đây là policy contradiction trap — câu hỏi nghe hợp lý nhưng vi phạm chính sách.",
+      "answer_b": "Được, miễn là đảm bảo kết nối an toàn.",
+      "winner_pass1": "A",
+      "winner_pass2": "A",
+      "final_winner": "A",
+      "reasoning_pass1": "Answer A chính xác và đầy đủ thông tin về chính sách VPN của công ty, trong khi Answer B chỉ đưa ra thông tin không chính xác mà không xem xét chính sách hiện hành.",
+      "reasoning_pass2": "Answer B cung cấp thông tin chính xác về chính sách VPN của công ty, trong khi Answer A không đề cập đến quy định cụ thể nào.",
+      "position_consistent": true,
+      "scores_pass1": {
+        "A": 1.0,
+        "B": 0.2
+      },
+      "scores_pass2": {
+        "A": 1.0,
+        "B": 0.4
+      }
+    }
+  ]
+}

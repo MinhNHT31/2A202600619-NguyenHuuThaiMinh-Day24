@@ -1,0 +1,138 @@
+{
+  "total_questions": 50,
+  "per_distribution": {
+    "factual": {
+      "count": 20,
+      "faithfulness": 0.9208333333333332,
+      "answer_relevancy": 0.18426231508904098,
+      "context_precision": 0.9374999999422915,
+      "context_recall": 0.9,
+      "avg_score": 0.7356489120911663
+    },
+    "multi_hop": {
+      "count": 20,
+      "faithfulness": 0.5891666666666666,
+      "answer_relevancy": 0.16409634364802902,
+      "context_precision": 0.9416666666329168,
+      "context_recall": 0.7791666666666666,
+      "avg_score": 0.6185240859035698
+    },
+    "adversarial": {
+      "count": 10,
+      "faithfulness": 0.8,
+      "answer_relevancy": 0.3697190061717071,
+      "context_precision": 0.9666666666266666,
+      "context_recall": 0.65,
+      "avg_score": 0.6965964181995934
+    }
+  },
+  "failure_clusters": {
+    "matrix": {
+      "faithfulness": {
+        "factual": 2,
+        "multi_hop": 5,
+        "adversarial": 2
+      },
+      "context_recall": {
+        "factual": 0,
+        "multi_hop": 0,
+        "adversarial": 3
+      },
+      "context_precision": {
+        "factual": 0,
+        "multi_hop": 0,
+        "adversarial": 0
+      },
+      "answer_relevancy": {
+        "factual": 18,
+        "multi_hop": 15,
+        "adversarial": 5
+      }
+    },
+    "dominant_failure_distribution": "factual",
+    "dominant_failure_metric": "answer_relevancy",
+    "insight": "Distribution 'factual' có nhiều failure nhất. Metric 'answer_relevancy' là điểm yếu chủ đạo. Gợi ý: Improve prompt template"
+  },
+  "bottom_10": [
+    {
+      "rank": 1,
+      "question_id": 39,
+      "distribution": "multi_hop",
+      "question": "So sánh yêu cầu mật khẩu giữa policy v1.0 và v2.0 về độ dài tối thiểu, thời hạn đổi và MFA.",
+      "avg_score": 0.0,
+      "worst_metric": "faithfulness"
+    },
+    {
+      "rank": 2,
+      "question_id": 50,
+      "distribution": "adversarial",
+      "question": "Nhân viên Manager có thể dùng VPN cá nhân (như NordVPN) khi WFH để tăng bảo mật thêm không?",
+      "avg_score": 0.3333,
+      "worst_metric": "faithfulness"
+    },
+    {
+      "rank": 3,
+      "question_id": 33,
+      "distribution": "multi_hop",
+      "question": "Nhân viên Manager có thâm niên 12 năm: tổng phụ cấp hàng tháng và số ngày phép năm theo v2024 là bao nhiêu?",
+      "avg_score": 0.375,
+      "worst_metric": "faithfulness"
+    },
+    {
+      "rank": 4,
+      "question_id": 44,
+      "distribution": "adversarial",
+      "question": "Bao lâu phải đổi mật khẩu một lần?",
+      "avg_score": 0.3955,
+      "worst_metric": "faithfulness"
+    },
+    {
+      "rank": 5,
+      "question_id": 9,
+      "distribution": "factual",
+      "question": "Nam nhân viên được nghỉ bao nhiêu ngày khi vợ sinh con?",
+      "avg_score": 0.5,
+      "worst_metric": "faithfulness"
+    },
+    {
+      "rank": 6,
+      "question_id": 38,
+      "distribution": "multi_hop",
+      "question": "Nhân viên đi công tác nước ngoài 4 ngày tại thành phố lớn, ở khách sạn 200 USD/đêm (3 đêm). Công ty thanh toán bao nhiêu tiền khách sạn?",
+      "avg_score": 0.5157,
+      "worst_metric": "faithfulness"
+    },
+    {
+      "rank": 7,
+      "question_id": 31,
+      "distribution": "multi_hop",
+      "question": "Nhân viên đi công tác trong nước 2 ngày, ở khách sạn giá 1.500.000 VNĐ/đêm. Công ty thanh toán tối đa bao nhiêu cho tiền khách sạn?",
+      "avg_score": 0.5168,
+      "worst_metric": "answer_relevancy"
+    },
+    {
+      "rank": 8,
+      "question_id": 24,
+      "distribution": "multi_hop",
+      "question": "Nhân viên tạm ứng 15 triệu, sau 20 ngày mới thanh toán. Bị phạt bao nhiêu?",
+      "avg_score": 0.5321,
+      "worst_metric": "answer_relevancy"
+    },
+    {
+      "rank": 9,
+      "question_id": 22,
+      "distribution": "multi_hop",
+      "question": "Nếu cần mua một chiếc laptop 30 triệu cho nhân viên mới, ai phê duyệt và cần gì từ phòng CNTT?",
+      "avg_score": 0.5814,
+      "worst_metric": "answer_relevancy"
+    },
+    {
+      "rank": 10,
+      "question_id": 10,
+      "distribution": "factual",
+      "question": "Nhân viên chính thức được phép làm việc từ xa tối đa bao nhiêu ngày một tuần?",
+      "avg_score": 0.5907,
+      "worst_metric": "answer_relevancy"
+    }
+  ]
+}

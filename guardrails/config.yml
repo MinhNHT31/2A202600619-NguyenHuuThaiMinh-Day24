@@ -1,7 +1,12 @@
 models:
   - type: main
     engine: openai
-    model: gpt-4o-mini
+    model: openai/gpt-4o-mini
+    parameters:
+      base_url: "https://openrouter.ai/api/v1"
+  - type: embeddings
+    engine: SentenceTransformers
+    model: sentence-transformers/all-MiniLM-L6-v2
 
 instructions:
   - type: general
@@ -13,10 +18,7 @@ instructions:
 
 rails:
   input:
-    flows:
-      - check jailbreak
-      - check off topic
-      - check pii request
+    flows: []
   output:
     flows:
       - check sensitive output
